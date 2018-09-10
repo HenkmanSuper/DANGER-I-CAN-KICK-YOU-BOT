@@ -1,5 +1,5 @@
-import { Client } from "discord.js";
-import { prefix as _prefix, token } from "./botconfig.json";
+const discord = require("discord.js");
+const botConfig = require("./botconfig.json");
 
 const bot = new Client();
 
