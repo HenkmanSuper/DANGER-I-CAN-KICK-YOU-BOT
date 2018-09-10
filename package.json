@@ -1,8 +1,0 @@
-{
-  "name": "super_pieter",
-  "version": "",
-  "dependencies": {
-    "discord.js": "^11.4.2"
-  },
-  "devDependencies": {}
-}
