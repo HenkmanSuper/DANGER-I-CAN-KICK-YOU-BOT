@@ -34,4 +34,4 @@ return massage.channel.send("HALLO!!");
 });
 
 
-bot.login(token);
+bot.login("NDg4NzA1MjY4NzQ2NTUxMzE2.Dng2Og.x5kN6EKl5mjiN5VcbuiKx115KMA");
