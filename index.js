@@ -34,4 +34,4 @@ return massage.channel.send("HALLO!!");
 });
 
 
-bot.login("TOKEN")
+bot.login("token")
