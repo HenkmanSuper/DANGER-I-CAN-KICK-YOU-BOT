@@ -1,35 +1,64 @@
-const discord = require("discord.js");
-const Client = new Discord.Client();
-
-
-bot.on("ready", async () => {
-
-console.log(`${bot.user.username} is online!`);
-
-});
-
-
-bot.on("massage", async massage =>{
-
-if(massage.author.bot) return;
-
-if(massage.channel.typ === "dm") return;
-
-var prefix = _prefix;
-
-var massageArray = massage.content.split(" ");
-
-var commend = MessageArray[0];
-
-var arguments = MessageArray.slice(1);
-
-if(commend === `${prefix}hallo`)
-
-return massage.channel.send("HALLO!!");
-
-
-
-});
-
-
+const Discord = require('discord.js')
+const client = new Discord.Client()
 client.login(process.env.BOT_TOKEN);
+
+
+
+
+
+  client.on('message', message => { 
+  var prefix = '!#!'
+  if(message.content.toLowerCase() ===  `${prefix}gevaar`){
+     
+    message.channel.send('IK BEN ONLINE BAAS!')
+    
+}
+   
+ 
+   
+   
+})
+
+
+
+
+
+
+  client.on('message', message => { 
+  var prefix = ''
+  if(message.content.toLowerCase() ===  `${prefix}gevaar`){
+     
+    message.channel.send('DANGER!! DANGER!!')
+    message.channel.send('ER IS GEVAAR!!')
+    message.channel.send('RED JE ZELF!!')
+    
+}
+   
+ 
+   
+   
+})
+
+
+
+
+
+
+  client.on('message', message => { 
+  var prefix = ''
+  if(message.content.toLowerCase() ===  `${prefix}hallo`){
+     
+    message.channel.send('.HALLO!!')
+    message.channel.send('.zeg hallo super pieter!')
+    
+}
+   
+ 
+   
+   
+})
+
+
+
+
+
