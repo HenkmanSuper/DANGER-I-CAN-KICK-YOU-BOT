@@ -32,4 +32,4 @@ return massage.channel.send("HALLO!!");
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.bottoken);
