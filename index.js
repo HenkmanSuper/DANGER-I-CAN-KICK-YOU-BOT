@@ -10,7 +10,7 @@ client.login(process.env.token)
   var prefix = '!#!'
   if(message.content.toLowerCase() ===  `${prefix}gevaar`){
      
-    message.channel.send('IK BEN ONLINE BAAS!')
+    message.channel.send('IK BEN ONLINE BAASsss!')
     
 }
    
