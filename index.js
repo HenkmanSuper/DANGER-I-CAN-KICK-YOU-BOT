@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client({disableEveryone: true})
-client.login(process.env.token)
+client.login(process.env.bot_token)
 
 
 
